@@ -3,9 +3,9 @@ It is a basic task manager, which can show your task on basis of the priority yo
 
 
 For cloning :
-- 1.) open terminal and go to directoy in which you want to clone the repository.(eg. for desktop write: cd Desktop/ )
-- 2.) paste this in terminal: git clone https://github.com/Jaivik-kalathiya/Task_manager.git
-- 3.) open folder in vs code and run through the live server.
+- open terminal and go to directoy in which you want to clone the repository.(eg. for desktop write: cd Desktop/ )
+- paste this in terminal: git clone https://github.com/Jaivik-kalathiya/Task_manager.git
+- open folder in vs code and run through the live server.
 
 Here we are storing the data in local storage.so Follow this to clear the stored data after use:
 
