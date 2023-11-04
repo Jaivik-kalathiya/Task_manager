@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task List 2023</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Task List</h1>
+      <form id="new-task-form">
+        <ul>
+          <li>
+            <input
+              type="text"
+              name=""
+              id="task_title"
+              class="input-new-task"
+              placeholder="What is your Task title?"
+              required
+            />
+          </li>
+          <li>
+            <input
+              type="text"
+              name="new-task-input"
+              id="new-task-input"
+              class="input-new-task"
+              placeholder="What do you have planned?"
+              required
+            />
+          </li>
+
+          <li>
+            <input
+              type="number"
+              name="new-task-id"
+              id="new-task-id"
+              class="input-new-task"
+              placeholder="Enter your Id"
+              min="1"
+              max="10000"
+              required
+            />
+          </li>
+          <li>
+            <input
+              type="number"
+              class="input-new-task"
+              name=""
+              id="task-priority"
+              placeholder="Priority of Task"
+              min="1"
+             
+            />
+          </li>
+          <li>
+            <input type="date" class="input-new-task" name="" id="due-date"/>
+          </li>
+          <li>
+            <input
+              type="number"
+              class="input-new-task"
+              name=""
+              id="dependency-id"
+              placeholder="Enter the Dependency Id"
+              min="1"
+              max="10000"
+              
+            />
+          </li>
+          <li>
+            <input
+              type="submit"
+              class="submit-task"
+              id="new-task-submit"
+              value="Add task"
+            />
+            <input
+              type="reset"
+              class="submit-task"
+              id="new-task-submit"
+              value="Reset"
+            />
+          </li>
+        </ul>
+      </form>
+    </header>
+
+    <main>
+      <section class="task-list">
+        <h2>Tasks</h2>
+
+        <div id="tasks">
+          <ul id="output-list">
+            <div id="task-info">
+                <!-- <ul id="output-list"></ul>
+                <div class="task-info" id="">
+                  <li class="datas collapsible">Title: </li>
+                  <li class="datas wrapper">Your Task: </li>
+                  <li class="datas wrapper">Task Id: </li>
+                  <li class="datas wrapper">Priority of the task: </li>
+                  <li class="datas wrapper date-time">Due Date:</li>
+                </div> -->
+
+            </div>
+          </ul>
+          
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
