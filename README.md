@@ -16,6 +16,3 @@ Here we are storing the data in local storage.so Follow this to clear the stored
 - We are storing the data by its id as key.
 - to clear the data click on "⊘".which you can find it on right upside.
   
-  
-
------------------------------------------------- Enjoy Your Assignments 😊 --------------------------------------------
